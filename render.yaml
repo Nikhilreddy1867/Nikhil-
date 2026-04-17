@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: nikhil-portfolio
+    runtime: static
+    repo: https://github.com/Nikhilreddy1867/Nikhil-.git
+    branch: main
+    buildCommand: "true"
+    staticPublishPath: .
